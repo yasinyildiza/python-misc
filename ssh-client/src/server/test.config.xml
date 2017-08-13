@@ -1,0 +1,12 @@
+<root>
+    <srcpath value='../client/client.py' />
+    <clients>
+        <client ip='127.0.0.1' port='22' username='yasin' password='1' mail='maclogtest@gmail.com' execpath='client.py' outpath='stat.bin' >
+            <alert type='memory' limit='50%' />
+            <alert type='cpu' limit='20%' />
+        </client>
+    </clients>
+    <database name='test_MachineLogger' username='root' password='1' host='127.0.0.1' port='3306' />
+    <mailer ip='smtp.googlemail.com' port='587' timeout='30' username='maclogtest@gmail.com' password='SqlMac789!' />
+    <multithread enabled='false' />
+</root>
